@@ -54,29 +54,3 @@ app.use(function (err, req, res, next) {
 });
 
 module.exports = app;
-
-// mongodb+srv://awa-local-library:aJ73WzW*L8Nd1F@cluster0.omkirdt.mongodb.net/?retryWrites=true&w=majority
-// Set up default mongoose connection
-// const mongoDB = 'mongodb+srv://awa-local-library:aJ73WzW*L8Nd1F@cluster0.omkirdt.mongodb.net/?retryWrites=true&w=majority';
-// mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
-
-// // Get the default connection
-// const db = mongoose.connection;
-
-// // Bind connection to erro event (to get notif of connection errors)
-// db.on('error', console.error.bind(console, 'MongoDB connection error'));
-
-// // const Schema = mongoose.Scheema;
-
-// // const SomeModelSchema = new Schema({
-// //   name: String,
-// //   binary: Buffer,
-// //   living: Boolean,
-// //   updated: { type: Date, default: Date.now() },
-// //   age: { type: Number, min: 18, max: 65, required: true },
-// //   mixed: Schema.Types.Mixed,
-// //   _someId: Schema.Types.ObjectId,
-// //   array: [],
-// //   ofString: [String], // You can also have an array of each of the other types too.
-// //   nested: { stuff: { type: String, lowercase: true, trim: true } },
-// // });
